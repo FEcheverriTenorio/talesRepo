@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(109, 60, 133);
+
+.title{
+    font-size: 1.8em;
+}
+
+.fotoPerfil{
+
+   margin: auto;
+   width: 30em ;
+    height: 30em;
+
+}
+
+.logo{
+    width: 6em ;
+    height: 6em;
+}
+
+#logo2{
+    width: 10em ;
+}
+
+.cards{
+ border: 2px solid black;
+ width: fit-content;
+ padding: 3px 3em 4px 3em;
+ border-radius: 15%;
+ transition: 1s;
+ display: flex;
+ flex-direction: column;
+ gap: 2em;
+ align-items: center;
+
+}
+
+.cards:hover{
+    background-color: #9e9eccda;
+}
+#cards-container{
+    background-color: rgb(203, 185, 217);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(50, 46, 90);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#bio-container{
+    background-color: rgb(53, 37, 72);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+
+    border: 2px solid black;
+    width: 85vw;
+
+
+   
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#principal{
+    font-size: 4.5em;
+}
+
+.fondo{
+    background-color: red;
+}
+
+#titulos{
+
+
+    /*viewport width */
+    margin: auto;
+    padding: 3em;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-evenly;
+   
+
+}
+
+#resumen{
+
+    border: 2px solid black;
+    width: 85vw;
+    /*viewport width */
+    margin: auto;
+    margin-top: 50px;
+    padding: 3em;
+    border-radius: 15px;
+
+}
+
+.miTexto {
+    font-size: 80px;
+    color:green;
+}
+}
